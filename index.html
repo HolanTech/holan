@@ -17,6 +17,11 @@
       a {
         text-decoration: none;
       }
+
+      .indent {
+        text-indent: 2em; /* Menambahkan indentasi sebesar 2 karakter */
+        display: block; /* Menjadikan elemen sebagai blok untuk memastikan indentasi berlaku pada setiap baris */
+      }
     </style>
   </head>
   <body class="font-poppins scroll-smooth">
@@ -90,15 +95,22 @@
         <div class="flex flex-wrap">
           <div class="w-full px-4 mb-10 lg:w-1/2">
             <h4 class="font-bold uppercase text-lg mb-3 lg:text-2xl">About Me</h4>
-            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">
-              Halo,nama saya Munti Parsi Holan biasa dipanggil Holan. Saya saat ini merupakan mahasiswa semester 6 dengan nilai IPK yang memuaskan, sebelumnya memiliki pengalaman bekerja 5 tahun dan terbiasa bekerja dalam tim dan
-              berkomunikasi dengan baik. Saat ini memiliki ketertarikan bekerja di bidang programmer khususnya menggunakan Laravel, Javascript dan Vue.JS di Eduwork. Selama belajar di Bootcamp Eduwork, saya mempelajari bidang Backend dan
-              Frontend, serta membuat beberapa project sebagai portofolio. Saat ini terbuka untuk posisi Laravel, Vue.JS Developer, Backend dan Front End developer. .
+            <p class="font-medium text-base text-secondary max-w-xl lg:text-lg text-justify p-2">
+              <span class="indent"
+                >Halo, saya adalah Munti Parsi Holan, biasa dipanggil Holan. Saya seorang mahasiswa semester 6 dengan nilai IPK yang memuaskan. Sebelumnya, saya memiliki pengalaman bekerja selama 5 tahun dan terbiasa bekerja dalam tim serta
+                berkomunikasi dengan baik.</span
+              >
+              <span class="indent"
+                >Saat ini, saya tertarik untuk bekerja di bidang programmer, khususnya dalam menggunakan Laravel, Javascript, dan Vue.JS di Eduwork. Selama saya belajar di Bootcamp Eduwork, saya telah mempelajari bidang Backend dan
+                Frontend, serta membuat beberapa proyek sebagai portofolio. Saat ini, saya sangat tertarik dengan posisi sebagai Laravel, Vue.JS Developer, Backend, dan Front End Developer.</span
+              >
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
             <h3 class="font-semibold text-dark text-2xl mb-3">Follow me on:</h3>
-            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Untuk mengetahui keseharianku atau karya-karya lain yang aku buat bisa kalian lihat di social mediaku yang bisa kalian kunjungi dengan menekan tombol dibawah</p>
+            <p class="font-medium text-base text-secondary mb-6 lg:text-lg">
+              <span class="indent">Untuk mengetahui keseharianku atau karya-karya lain yang aku buat bisa kalian lihat di social mediaku yang bisa kalian kunjungi dengan menekan tombol dibawah </span>
+            </p>
             <div class="flex items-center">
               <!-- twitter -->
               <a
@@ -181,12 +193,12 @@
                 </div>
 
                 <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Aplikasi Perpustakaan (2003)</h3>
-                <p class="font-medium text-base text-secondary">
-                  Website ini adalah website yang dibuat selama proses belajarku di eduwork, yang dapat digunakan untuk menyimpan data buku, anggota, penerbit, pengarang, dan transaksi peminjaman.
+                <p class="font-medium text-base text-secondary text-justify p-2">
+                  <span class="indent">Website ini adalah website yang dibuat selama proses belajarku di eduwork, yang dapat digunakan untuk menyimpan data buku, anggota, penerbit, pengarang, dan transaksi peminjaman.</span>
                 </p>
 
                 <h4 class="font-semibold text-xl text-dark mt-5 mb-3">Bahasa Pemrograman & Teknologi yang digunakan :</h4>
-                <p class="font-medium text-base text-secondary">Laravel versi-10 | HTML5 | CSS3 | PHP v8.2 | javascript | Bootsrap4 | tailwindcss | Vue-JS | React-JS | Rest API | Fontawesome</p>
+                <p class="font-medium text-base text-secondary text-justify p-2">Laravel versi-10 | HTML5 | CSS3 | PHP v8.2 | javascript | Bootsrap4 | tailwindcss | Vue-JS | React-JS | Rest API | Fontawesome</p>
 
                 <p class="font-medium text-base text-secondary">
                   Soucre code ada di sini:
@@ -194,7 +206,7 @@
                 </p>
               </div>
             </div>
-            <div class="mb-12 p-4 md:w-1/2">
+            <div class="mb-12 p-4 md:w-1/2 p-3">
               <div class="rounded-md shadow-md overflow-hidden">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
@@ -218,11 +230,14 @@
                 </div>
 
                 <h3 class="font-semibold text-xl text-dark mt-5 mb-3">Aplikasi Point Of Sale (2023)</h3>
-                <p class="font-medium text-base text-secondary">
-                  Website ini adalah website yang ku buat untuk tugas akhir dan hasil dari belajar di eduwork,yang dapat digunakan untuk menyimpan data produk, anggota, pemasok, transaksi dan juga Laporan penjualan serta pengeluaran.
+                <p class="font-medium text-base text-secondary text-justify p-2">
+                  <span class="indent">
+                    Website ini adalah website yang ku buat untuk tugas akhir dan hasil dari belajar di eduwork,yang dapat digunakan untuk menyimpan data produk, anggota, pemasok, transaksi dan juga Laporan penjualan serta
+                    pengeluaran.</span
+                  >
                 </p>
                 <h4 class="font-semibold text-xl text-dark mt-5 mb-3">Bahasa Pemrograman & Teknologi yang digunakan :</h4>
-                <p class="font-medium text-base text-secondary">Laravel versi-10 | HTML5 | CSS3 | PHP v8.2 | javascript | Bootsrap4 | tailwindcss | Vue-JS | React-JS | Rest API | Fontawesome</p>
+                <p class="font-medium text-base text-secondary text-justify p-2">Laravel versi-10 | HTML5 | CSS3 | PHP v8.2 | javascript | Bootsrap4 | tailwindcss | Vue-JS | React-JS | Rest API | Fontawesome</p>
 
                 <p class="font-medium text-base text-secondary">
                   Soucre code ada di sini:
